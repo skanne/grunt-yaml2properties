@@ -137,4 +137,4 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 - [grunt-yaml](https://github.com/shiwano/grunt-yaml) served as the foundation and starting point for this package – I just had to tweak it a little bit to output `.properties` instead of `.json` files. So, all kudos belong to [Shogo Iwano](https://github.com/shiwano). ありがとうございました！
 
 ## License
-View the [LICENSE](https://github.com/nodeca/js-yaml/blob/master/LICENSE) file (MIT).
+View the [LICENSE](https://github.com/skanne/grunt-yaml2properties/blob/master/LICENSE-MIT) file (MIT).
