@@ -38,7 +38,10 @@
     "grunt": "~0.4.2"
   },
   "keywords": [
-    "gruntplugin"
+    "gruntplugin",
+    "yaml",
+    "properties",
+    "convert"
   ],
   "dependencies": {
     "js-yaml": "~3.0.1",
