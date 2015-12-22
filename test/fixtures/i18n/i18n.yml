@@ -1,0 +1,55 @@
+
+app:
+  close:
+    text: "Close"
+    tooltip: "Close"
+  info:
+    text: "About {title}"
+    tooltip: "About {title}"
+  max:
+    text: "Maximize"
+    tooltip: "Maximize"
+  min:
+    text: "Restore down"
+    tooltip: "Restore down"
+  newwin:
+    text: "Open in new browser tab"
+    tooltip: "Open in new browser tab"
+  maximumreached:
+    text: "Maximum of {#} open applications reached."
+
+lug:
+  analytics:
+    text: "Analytics"
+    tooltip: "Show only analytics tiles"
+  application:
+    text: "Applications"
+    tooltip: "Show only application tiles"
+  help:
+    text: "Help"
+    tooltip: "Show only help tiles"
+  home:
+    text: "Home"
+    tooltip: "Show all home tiles"
+  systems:
+    text: "Systems"
+    tooltip: "Show only system tiles"
+  widgets:
+    text: "Widgets"
+    tooltip: "Show only widget tiles"
+
+meta:
+  logout:
+    text: "Logout"
+    tooltip: "Logout from the Portal"
+  hints:
+    text: "Hints"
+    tooltip: "Show hints for the Portal (click or type CTRL+I)"
+  search:
+    text: "Search"
+    tooltip: "Search (click or type CTRL+SPACE)"
+  settings:
+    text: "Settings"
+    tooltip: "Open settings (click or type CTRL+,)"
+  welcome:
+    text: "Welcome"
