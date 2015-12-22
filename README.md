@@ -38,6 +38,9 @@ grunt.initConfig({
           '!include scalar': function(value, yamlLoader) {
             return yamlLoader(value);
           },
+          '!max sequence': function(values) {
+            return Math.max.apply(null, values);
+          },
           '!extend mapping': function(value, yamlLoader) {
             return _.extend(yamlLoader(value.basePath), value.partial);
           }
