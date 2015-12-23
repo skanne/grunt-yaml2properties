@@ -37,6 +37,20 @@ grunt.initConfig({
   yaml2properties: {
     your_target: {
       options: {
+        ignored: /^_/
+      },
+      files: [
+        {expand: true, cwd: 'yaml_directory/', src: ['**/*.yml'], dest: 'output_directory/'}
+      ]
+    },
+  },
+})
+```
+<!-- customTypes problematic:
+grunt.initConfig({
+  yaml2properties: {
+    your_target: {
+      options: {
         ignored: /^_/,
         customTypes: {
           '!include scalar': function(value, yamlLoader) {
@@ -56,7 +70,7 @@ grunt.initConfig({
     },
   },
 })
-```
+-->
 In a situation where you do not want to output a file, but want to manipulate the data on your own, you can provide a middleware function and disable the destination write process:
 
 ```js
