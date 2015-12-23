@@ -1,6 +1,6 @@
 {
   "name": "grunt-yaml2properties",
-  "description": "Compiles YAML files to .properties files.",
+  "description": "Grunt plugin that converts YAML files to .properties files.",
   "version": "0.1.1",
   "homepage": "https://github.com/skanne/grunt-yaml2properties",
   "author": {
