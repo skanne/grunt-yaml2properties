@@ -15,6 +15,7 @@
   "bugs": {
     "url": "https://github.com/skanne/grunt-yaml2properties/issues"
   },
+  "license": "MIT",
   "licenses": [
     {
       "type": "MIT",
@@ -44,7 +45,7 @@
     "convert"
   ],
   "dependencies": {
-    "js-yaml": "~3.0.1",
-    "lodash": "~2.4.1"
+    "js-yaml": "~3.4.6",
+    "lodash": "~3.10.1"
   }
 }

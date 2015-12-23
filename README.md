@@ -1,7 +1,8 @@
 # grunt-yaml2properties
 
 [![npm version](https://badge.fury.io/js/grunt-yaml2properties.svg)](http://badge.fury.io/js/grunt-yaml2properties)
-[![Build Status](https://secure.travis-ci.org/skanne/grunt-yaml2properties.png?branch=master)](http://travis-ci.org/skanne/grunt-yaml2properties)
+[![Build Status](https://secure.travis-ci.org/skanne/grunt-yaml2properties.png?branch=master)](http://travis-ci.org/skanne/grunt-yaml2properties
+[![Dependency Status](https://david-dm.org/skanne/grunt-yaml2properties.svg)](https://david-dm.org/skanne/grunt-yaml2properties)
 
 > A [Grunt](https://github.com/gruntjs/grunt) plugin to convert [YAML](https://en.wikipedia.org/wiki/YAML) to [.properties](https://en.wikipedia.org/wiki/.properties) using [js-yaml](https://github.com/nodeca/js-yaml).
 
