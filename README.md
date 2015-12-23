@@ -133,8 +133,6 @@ See [shiwano](https://github.com/shiwano/cw-schema)'s schema.
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt][].
 
-## Release History
- * 2015-12-22   v0.1.0   First release.
 
 ## Credits
 - [grunt-yaml](https://github.com/shiwano/grunt-yaml) served as the foundation and starting point for this package – I just had to tweak it a little bit to output `.properties` instead of `.json` files. So, all kudos belong to [Shogo Iwano](https://github.com/shiwano). ありがとうございました！
