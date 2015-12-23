@@ -40,17 +40,17 @@ module.exports = function(grunt) {
       custom_options: {
         options: {
           ignored: /^_/,
-          customTypes: {
-            '!include scalar': function(value, yamlLoader) {
-              return yamlLoader(value);
-            },
-            '!max sequence': function(values) {
-              return Math.max.apply(null, values);
-            },
-            '!extend mapping': function(value, yamlLoader) {
-              return _.extend(yamlLoader(value.basePath), value.partial);
-            }
-          }
+          // customTypes: {
+          //   '!include scalar': function(value, yamlLoader) {
+          //     return yamlLoader(value);
+          //   },
+          //   '!max sequence': function(values) {
+          //     return Math.max.apply(null, values);
+          //   },
+          //   '!extend mapping': function(value, yamlLoader) {
+          //     return _.extend(yamlLoader(value.basePath), value.partial);
+          //   }
+          // }
         },
         files: [
           {expand: true, cwd: 'test/fixtures/', src: ['**/*.yml'], dest: 'tmp/custom_options/'}

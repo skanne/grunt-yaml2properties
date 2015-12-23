@@ -39,8 +39,8 @@ module.exports = function(grunt) {
       var tagAndKind = tagAndKindString.split(/\s+/);
 
       var yamlType = new yaml.Type(tagAndKind[0], {
-        loadKind: tagAndKind[1],
-        loadResolver: function(state) {
+        kind: tagAndKind[1],
+        resolve: function(state) {
           var result = resolver.call(this, state.result, loadYaml);
 
           if (_.isUndefined(result) || _.isFunction(result)) {
