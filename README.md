@@ -1,6 +1,9 @@
-# grunt-yaml2properties [![Build Status](https://secure.travis-ci.org/skanne/grunt-yaml2properties.png?branch=master)](http://travis-ci.org/skanne/grunt-yaml2properties)
+# grunt-yaml2properties
 
-> Compiles YAML files to .properties files.
+[![npm version](https://badge.fury.io/js/grunt-yaml2properties.svg)](http://badge.fury.io/js/grunt-yaml2properties)
+[![Build Status](https://secure.travis-ci.org/skanne/grunt-yaml2properties.png?branch=master)](http://travis-ci.org/skanne/grunt-yaml2properties)
+
+> A [Grunt](https://github.com/gruntjs/grunt) plugin to convert [YAML](https://en.wikipedia.org/wiki/YAML) to [.properties](https://en.wikipedia.org/wiki/.properties) using [js-yaml](https://github.com/nodeca/js-yaml).
 
 ## Getting Started
 _If you haven't used [grunt][] before, be sure to check out the [Getting Started][] guide._
@@ -124,8 +127,8 @@ An override to the default buffer encoding used to write out the JSON file (`gru
 
 
 ### YAML Usage Examples
-
 See [shiwano](https://github.com/shiwano/cw-schema)'s schema.
+
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [grunt][].
@@ -135,6 +138,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Credits
 - [grunt-yaml](https://github.com/shiwano/grunt-yaml) served as the foundation and starting point for this package – I just had to tweak it a little bit to output `.properties` instead of `.json` files. So, all kudos belong to [Shogo Iwano](https://github.com/shiwano). ありがとうございました！
+
 
 ## License
 View the [LICENSE](https://github.com/skanne/grunt-yaml2properties/blob/master/LICENSE-MIT) file (MIT).
