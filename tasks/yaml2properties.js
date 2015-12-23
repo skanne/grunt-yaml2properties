@@ -58,7 +58,7 @@ module.exports = function(grunt) {
     return yaml.Schema.create(yamlTypes);
   }
 
-  function jsonToProperites(json, prefix) {
+  function json2Properties(json, prefix) {
     var lines = [];
 
     prefix = prefix ? prefix + '.' : '';
@@ -77,7 +77,7 @@ module.exports = function(grunt) {
         } else if (_.isNumber(value) || _.isBoolean(value)) {
           lines.push(prefix + key + ' = ' + value);
         } else if (_.isObject(value)) {
-          lines = lines.concat(jsonToProperites(value, prefix + key));
+          lines = lines.concat(json2Properties(value, prefix + key));
         }
       });
     }
@@ -117,7 +117,7 @@ module.exports = function(grunt) {
 
         var dest = filePair.dest.replace(/\.ya?ml$/, '.properties');
         var json = loadYaml(src, readOptions);
-        var properties = jsonToProperites(json);
+        var properties = json2Properties(json);
         var output = bannerOption.replace(/#\{src\}/g, src).replace(/#\{dest\}/g, dest) + properties.join('\n');
 
         if (_.isFunction(options.middleware)) {
